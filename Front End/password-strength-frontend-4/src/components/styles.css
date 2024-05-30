@@ -1,0 +1,146 @@
+/* styles.css */
+
+/* Container for the entire form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/image2.avif);
+    background-size: cover; /* Make sure the image covers the whole container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+  
+  /* Form styling */
+  .registration-form {
+    background-color: #ffffffa3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Input fields styling */
+  .registration-form input[type="text"],
+  .registration-form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Password strength bars */
+  .password-strength-bars {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .strength-bar {
+    width: 18%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Register button styling */
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Login link styling */
+  .login-link {
+    color: #2b932e;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Popup styling */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .popup h3 {
+    margin: 0 0 10px;
+  }
+  
+  .popup p {
+    margin: 10px 0;
+  }
+  
+  .popup button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #45a049;
+  }
+  
+  .suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.suggestions li {
+    color: red;
+}
+
+/* Add this to your styles.css file */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.home-container h2 {
+  margin-bottom: 20px;
+}
+
+.home-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-container button:hover {
+  background-color: #45a049;
+}
